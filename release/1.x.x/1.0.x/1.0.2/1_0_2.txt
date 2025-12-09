@@ -1,0 +1,8 @@
+DecisionTreeClassifier(
+    max_depth=5,
+    min_samples_split=50, เพิ่มจาก 10 -> 50
+    min_samples_leaf=5,
+    random_state=42
+)
+
+Train Accuracy : 0.8375, Validation Accuracy  : 0.79

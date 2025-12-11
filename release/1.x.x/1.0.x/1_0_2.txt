@@ -4,5 +4,5 @@ DecisionTreeClassifier(
     min_samples_leaf=5,
     random_state=42
 )
-
+test_size=0.2
 Train Accuracy : 0.8375, Validation Accuracy  : 0.79

@@ -1,7 +1,7 @@
 vectorizer = TfidfVectorizer(
     max_features=5000,
     ngram_range=(1,3),
-    min_df=3, จาก 1 -> 3      
+    min_df=3,
     max_df=0.8
 )
 

@@ -1,0 +1,19 @@
+vectorizer = TfidfVectorizer(
+    max_features=5000,
+    ngram_range=(1,3),
+    min_df=3,   
+    max_df=0.8
+)
+
+model = MultinomialNB(alpha=3.0,fit_prior=False)
+
+Train Accuracy : 0.8275
+Test Accuracy : 0.77
+              precision    recall  f1-score   support
+
+           0       0.84      0.87      0.86       156
+           1       0.47      0.41      0.44        44
+
+    accuracy                           0.77       200
+   macro avg       0.66      0.64      0.65       200
+weighted avg       0.76      0.77      0.76       200

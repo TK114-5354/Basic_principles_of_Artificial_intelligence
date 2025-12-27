@@ -1,0 +1,12 @@
+model = KNeighborsClassifier(n_neighbors=20, weights='uniform', p=1) 
+
+Train Accuracy: 0.79
+Test Accuracy: 0.785
+              precision    recall  f1-score   support
+
+           0       0.80      0.96      0.87       150
+           1       0.68      0.26      0.38        50
+
+    accuracy                           0.79       200
+   macro avg       0.74      0.61      0.62       200
+weighted avg       0.77      0.79      0.75       200

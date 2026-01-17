@@ -2,6 +2,7 @@ LEARNING_RATE = 0.1
 MAX_EPOCHS = 100
 BATCH_SIZE = 128
 THREADHOLD = 0.5
+test_size=0.4
 
 model = models.Sequential([
     layers.Dense(32, activation='softmax', input_shape=(X_train.shape[1],)),

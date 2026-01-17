@@ -1,0 +1,26 @@
+LEARNING_RATE = 0.1
+MAX_EPOCHS = 100
+BATCH_SIZE = 128
+THREADHOLD = 0.5
+test_size=0.4
+
+model = models.Sequential([
+    layers.Dense(16, activation='relu', input_shape=(X_train.shape[1],)),
+    layers.Dropout(0.7),
+    layers.Dense(16, activation='sigmoid'),
+    layers.Dense(1, activation='sigmoid')
+])
+
+============================================================
+Classification Report:
+============================================================
+              precision    recall  f1-score   support
+
+           0       0.88      0.73      0.80       298
+           1       0.48      0.72      0.57       102
+
+    accuracy                           0.73       400
+   macro avg       0.68      0.73      0.69       400
+weighted avg       0.78      0.73      0.74       400
+
+============================================================

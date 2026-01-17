@@ -1,0 +1,6 @@
+my_C = 100           # <--- แก้ไขค่า C ตรงนี้ (เช่น 0.1, 1, 100)
+my_gamma = 'scale'  # <--- แก้ไขค่า gamma ตรงนี้ (เช่น 0.1, 0.01 หรือ 'scale')
+my_kernel = 'linear'   # <--- แก้ไข kernel ตรงนี้ (เช่น 'linear', 'poly')
+
+Test Accuracy: 0.8513
+ROC AUC: 0.8725

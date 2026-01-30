@@ -1,0 +1,18 @@
+C=0.1
+penalty='l1'
+solver='saga'
+max_iter=100000
+random_state=42
+
+--- Logistic Regression Report ---
+Accuracy Score: 0.9722
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.97        39
+           1       0.94      1.00      0.97        33
+
+    accuracy                           0.97        72
+   macro avg       0.97      0.97      0.97        72
+weighted avg       0.97      0.97      0.97        72

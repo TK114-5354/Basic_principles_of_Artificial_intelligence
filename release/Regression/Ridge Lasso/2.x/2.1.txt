@@ -1,0 +1,9 @@
+model = Ridge(
+    alpha=0.1,
+    max_iter=100000,
+    random_state=42
+)
+
+ผลลัพธ์จากโมเดล: Ridge
+R-squared: 0.9939
+RMSE: 21119.33

@@ -1,0 +1,9 @@
+model = Lasso(
+    alpha=0.2,
+    max_iter=10000,
+    random_state=42
+)
+
+ผลลัพธ์จากโมเดล: Lasso
+R-squared: 0.9940
+RMSE: 21035.29
